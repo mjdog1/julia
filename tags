@@ -1,0 +1,601 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABORT_ON	src/util.h	22;"	d
+ABORT_ON	test/client.c	24;"	d	file:
+AGAIN	src/util.h	5;"	d
+ALLOWED_IN_ABS_PATH	src/parse.c	391;"	d	file:
+ALLOWED_IN_ABS_PATH	src/parse.c	589;"	d	file:
+ALLOWED_IN_EXTENSION	src/parse.c	415;"	d	file:
+ALLOWED_IN_EXTENSION	src/parse.c	590;"	d	file:
+ALLOWED_IN_QUERY	src/parse.c	417;"	d	file:
+ALLOWED_IN_QUERY	src/parse.c	591;"	d	file:
+BIN_DIR	src/Makefile	/^BIN_DIR = \/usr\/local\/bin\/$/;"	m
+BUF_SIZE	src/base/buffer.h	12;"	d
+CC	juson/Makefile	/^CC = gcc$/;"	m
+CC	src/Makefile	/^CC = gcc -std=c11$/;"	m
+CC	test/Makefile	/^CC = gcc$/;"	m
+CFG_ERR_ON	src/config.c	8;"	d	file:
+CFLAGS	juson/Makefile	/^CFLAGS = -O2 -pg -Wall -std=c11 -Wall -I.\/$/;"	m
+CFLAGS	src/Makefile	/^CFLAGS = -g -Wall -DINSTALL_DIR=\\"$(INSTALL_DIR)\\" -D_XOPEN_SOURCE -D_GNU_SOURCE -I.\/ -I..\/$/;"	m
+CFLAGS	test/Makefile	/^CFLAGS = -g -std=c11 -Wall -D_XOPEN_SOURCE -D_GNU_SOURCE $(INC)$/;"	m
+CLOSED	src/util.h	7;"	d
+COMMON_HEADERS	src/server.h	94;"	d
+CRLF	src/util.h	20;"	d
+C_SIDE_BACK	src/server.h	/^    C_SIDE_BACK,$/;"	e	enum:__anon33
+C_SIDE_FRONT	src/server.h	/^    C_SIDE_FRONT,$/;"	e	enum:__anon33
+EMPTY_LINE	src/util.h	6;"	d
+ERROR	src/util.h	8;"	d
+ERR_CASE	src/response.c	386;"	d	file:
+ERR_CASE	src/response.c	438;"	d	file:
+ERR_HINT	juson/juson.h	10;"	d
+ERR_INTERNAL_ERROR	src/util.h	12;"	d
+ERR_INVALID_HEADER	src/util.h	13;"	d
+ERR_INVALID_METHOD	src/util.h	10;"	d
+ERR_INVALID_REQUEST	src/util.h	9;"	d
+ERR_INVALID_URI	src/util.h	14;"	d
+ERR_INVALID_VERSION	src/util.h	11;"	d
+ERR_NOMEM	src/util.h	18;"	d
+ERR_ON	src/util.h	32;"	d
+ERR_UNSUPPORTED_VERSION	src/util.h	16;"	d
+EVENTS_IN	src/server.h	46;"	d
+EVENTS_OUT	src/server.h	47;"	d
+HEADER_MAP_SIZE	src/request.c	68;"	d	file:
+HEADER_PAIR	src/request.c	21;"	d	file:
+HEADER_PAIR	src/request.c	66;"	d	file:
+HL_S_ALMOST_DONE	src/server.h	/^    HL_S_ALMOST_DONE,$/;"	e	enum:__anon34
+HL_S_BEGIN	src/server.h	/^    HL_S_BEGIN,$/;"	e	enum:__anon34
+HL_S_COLON	src/server.h	/^    HL_S_COLON,$/;"	e	enum:__anon34
+HL_S_DONE	src/server.h	/^    HL_S_DONE,$/;"	e	enum:__anon34
+HL_S_IGNORE	src/server.h	/^    HL_S_IGNORE,$/;"	e	enum:__anon34
+HL_S_NAME	src/server.h	/^    HL_S_NAME,$/;"	e	enum:__anon34
+HL_S_SP_AFTER_VALUE	src/server.h	/^    HL_S_SP_AFTER_VALUE,$/;"	e	enum:__anon34
+HL_S_SP_BEFORE_VALUE	src/server.h	/^    HL_S_SP_BEFORE_VALUE,$/;"	e	enum:__anon34
+HL_S_VALUE	src/server.h	/^    HL_S_VALUE,$/;"	e	enum:__anon34
+HTTP_1_0	src/server.h	259;"	d
+HTTP_1_1	src/server.h	258;"	d
+INC	test/Makefile	/^INC = -I\/usr\/include -I..\/ -I..\/base$/;"	m
+INSTALL_DIR	src/Makefile	/^INSTALL_DIR = \/usr\/local\/$(TARGET)\/$/;"	m
+JUSON_ARRAY	juson/juson.h	/^    JUSON_ARRAY,$/;"	e	enum:juson_type
+JUSON_BOOL	juson/juson.h	/^    JUSON_BOOL,$/;"	e	enum:juson_type
+JUSON_CHUNK_SIZE	juson/juson.h	14;"	d
+JUSON_ERR	juson/juson.h	13;"	d
+JUSON_EXPECT	juson/juson.c	17;"	d	file:
+JUSON_FAIL	juson/juson.c	12;"	d	file:
+JUSON_FLOAT	juson/juson.h	/^    JUSON_FLOAT,$/;"	e	enum:juson_type
+JUSON_INTEGER	juson/juson.h	/^    JUSON_INTEGER,$/;"	e	enum:juson_type
+JUSON_LIST	juson/juson.h	/^    JUSON_LIST,$/;"	e	enum:juson_type
+JUSON_NULL	juson/juson.h	/^    JUSON_NULL,$/;"	e	enum:juson_type
+JUSON_OBJECT	juson/juson.h	/^    JUSON_OBJECT,$/;"	e	enum:juson_type
+JUSON_OK	juson/juson.h	12;"	d
+JUSON_PAIR	juson/juson.h	/^    JUSON_PAIR,$/;"	e	enum:juson_type
+JUSON_STRING	juson/juson.h	/^    JUSON_STRING,$/;"	e	enum:juson_type
+L	src/connection.c	109;"	d	file:
+LIST_WIDTH	src/base/list.h	6;"	d
+MAX_CONNECTION	src/connection.c	3;"	d	file:
+MAX_EVENT_NUM	src/server.h	44;"	d
+MIME_MAP_SIZE	src/response.c	217;"	d	file:
+M_CONNECT	src/server.h	/^    M_CONNECT,$/;"	e	enum:__anon28
+M_DELETE	src/server.h	/^    M_DELETE,$/;"	e	enum:__anon28
+M_GET	src/server.h	/^    M_GET,$/;"	e	enum:__anon28
+M_HEAD	src/server.h	/^    M_HEAD,$/;"	e	enum:__anon28
+M_OPTIONS	src/server.h	/^    M_OPTIONS,$/;"	e	enum:__anon28
+M_POST	src/server.h	/^    M_POST,$/;"	e	enum:__anon28
+M_PUT	src/server.h	/^    M_PUT,$/;"	e	enum:__anon28
+M_TRACE	src/server.h	/^    M_TRACE,$/;"	e	enum:__anon28
+OBJS	juson/Makefile	/^OBJS = $(SRCS:.c=.o)$/;"	m
+OBJS	src/Makefile	/^OBJS = $(addprefix $(OBJS_DIR), $(SRCS:.c=.o))$/;"	m
+OBJS	test/Makefile	/^OBJS = $(SRCS:.c=.o)$/;"	m
+OBJS_DIR	juson/Makefile	/^OBJS_DIR = build\/$/;"	m
+OBJS_DIR	src/Makefile	/^OBJS_DIR = build\/$/;"	m
+OBJS_DIR	test/Makefile	/^OBJS_DIR = build\/$/;"	m
+OK	src/util.h	4;"	d
+P	src/connection.c	108;"	d	file:
+PARSE_ERR_ON	src/parse.c	15;"	d	file:
+PROT_FCGI	src/server.h	/^    PROT_FCGI,$/;"	e	enum:__anon23
+PROT_HTTP	src/server.h	/^    PROT_HTTP,$/;"	e	enum:__anon23
+PROT_UWSGI	src/server.h	/^    PROT_UWSGI, \/\/ support only uwsgi$/;"	e	enum:__anon23
+QUEUE_WIDTH	src/base/queue.h	7;"	d
+R	src/connection.c	110;"	d	file:
+RL_S_ALMOST_DONE	src/server.h	/^    RL_S_ALMOST_DONE,$/;"	e	enum:__anon34
+RL_S_BEGIN	src/server.h	/^    RL_S_BEGIN = 0,$/;"	e	enum:__anon34
+RL_S_DONE	src/server.h	/^    RL_S_DONE,$/;"	e	enum:__anon34
+RL_S_HTTP_H	src/server.h	/^    RL_S_HTTP_H,$/;"	e	enum:__anon34
+RL_S_HTTP_HT	src/server.h	/^    RL_S_HTTP_HT,$/;"	e	enum:__anon34
+RL_S_HTTP_HTT	src/server.h	/^    RL_S_HTTP_HTT,$/;"	e	enum:__anon34
+RL_S_HTTP_HTTP	src/server.h	/^    RL_S_HTTP_HTTP,$/;"	e	enum:__anon34
+RL_S_HTTP_VERSION_DOT	src/server.h	/^    RL_S_HTTP_VERSION_DOT,$/;"	e	enum:__anon34
+RL_S_HTTP_VERSION_MAJOR	src/server.h	/^    RL_S_HTTP_VERSION_MAJOR,$/;"	e	enum:__anon34
+RL_S_HTTP_VERSION_MINOR	src/server.h	/^    RL_S_HTTP_VERSION_MINOR,$/;"	e	enum:__anon34
+RL_S_HTTP_VERSION_SLASH	src/server.h	/^    RL_S_HTTP_VERSION_SLASH,$/;"	e	enum:__anon34
+RL_S_METHOD	src/server.h	/^    RL_S_METHOD,$/;"	e	enum:__anon34
+RL_S_SP_AFTER_VERSION	src/server.h	/^    RL_S_SP_AFTER_VERSION,$/;"	e	enum:__anon34
+RL_S_SP_BEFORE_URI	src/server.h	/^    RL_S_SP_BEFORE_URI,$/;"	e	enum:__anon34
+RL_S_SP_BEFORE_VERSION	src/server.h	/^    RL_S_SP_BEFORE_VERSION,$/;"	e	enum:__anon34
+RL_S_URI	src/server.h	/^    RL_S_URI,$/;"	e	enum:__anon34
+SERVER_NAME	src/response.c	4;"	d	file:
+SRCS	juson/Makefile	/^SRCS = test.c juson.c$/;"	m
+SRCS	src/Makefile	/^SRCS = base\/buffer.c base\/list.c		\\$/;"	m
+SRCS	test/Makefile	/^SRCS = test.c ..\/base\/list.c ..\/base\/vector.c ..\/base\/pool.c ..\/base\/heap.c$/;"	m
+STR2_EQ	src/parse.c	8;"	d	file:
+STR3_EQ	src/parse.c	9;"	d	file:
+STR4_EQ	src/parse.c	10;"	d	file:
+STR5_EQ	src/parse.c	11;"	d	file:
+STR6_EQ	src/parse.c	12;"	d	file:
+STR7_EQ	src/parse.c	13;"	d	file:
+STRING	src/base/string.h	14;"	d
+STRING_INIT	src/base/string.h	13;"	d
+TARGET	juson/Makefile	/^TARGET = test$/;"	m
+TARGET	src/Makefile	/^TARGET = julia$/;"	m
+TARGET	test/Makefile	/^TARGET = test$/;"	m
+TE_CHUNKED	src/server.h	/^    TE_CHUNKED,$/;"	e	enum:__anon29
+TE_COMPRESS	src/server.h	/^    TE_COMPRESS,$/;"	e	enum:__anon29
+TE_DEFLATE	src/server.h	/^    TE_DEFLATE,$/;"	e	enum:__anon29
+TE_GZIP	src/server.h	/^    TE_GZIP,$/;"	e	enum:__anon29
+TE_IDENTITY	src/server.h	/^    TE_IDENTITY,$/;"	e	enum:__anon29
+URI_S_ABS_PATH_DDOT	src/server.h	/^    URI_S_ABS_PATH_DDOT,$/;"	e	enum:__anon34
+URI_S_ABS_PATH_DOT	src/server.h	/^    URI_S_ABS_PATH_DOT,$/;"	e	enum:__anon34
+URI_S_ABS_PATH_ENTRY	src/server.h	/^    URI_S_ABS_PATH_ENTRY,$/;"	e	enum:__anon34
+URI_S_ABS_PATH_SLASH	src/server.h	/^    URI_S_ABS_PATH_SLASH,$/;"	e	enum:__anon34
+URI_S_BEGIN	src/server.h	/^    URI_S_BEGIN,$/;"	e	enum:__anon34
+URI_S_EXTENSION	src/server.h	/^    URI_S_EXTENSION,$/;"	e	enum:__anon34
+URI_S_HOST	src/server.h	/^    URI_S_HOST,$/;"	e	enum:__anon34
+URI_S_PORT	src/server.h	/^    URI_S_PORT,$/;"	e	enum:__anon34
+URI_S_QUERY	src/server.h	/^    URI_S_QUERY,$/;"	e	enum:__anon34
+URI_S_SCHEME	src/server.h	/^    URI_S_SCHEME,$/;"	e	enum:__anon34
+URI_S_SCHEME_COLON	src/server.h	/^    URI_S_SCHEME_COLON,$/;"	e	enum:__anon34
+URI_S_SCHEME_SLASH	src/server.h	/^    URI_S_SCHEME_SLASH,$/;"	e	enum:__anon34
+URI_S_SCHEME_SLASH_SLASH	src/server.h	/^    URI_S_SCHEME_SLASH_SLASH,$/;"	e	enum:__anon34
+UWSGI_KSV_LEN	src/uwsgi.c	13;"	d	file:
+UWSGI_KV_LEN	src/uwsgi.c	12;"	d	file:
+_JULIA_BUFFER_H_	src/base/buffer.h	2;"	d
+_JULIA_EVENT_H_	src/event.h	2;"	d
+_JULIA_LIST_H_	src/base/list.h	2;"	d
+_JULIA_MAP_H_	src/base/map.h	2;"	d
+_JULIA_POOL_H_	src/base/pool.h	2;"	d
+_JULIA_QUEUE_H_	src/base/queue.h	2;"	d
+_JULIA_SERVER_H_	src/server.h	2;"	d
+_JULIA_STRING_H_	src/base/string.h	2;"	d
+_JULIA_UTIL_H_	src/util.h	2;"	d
+_JULIA_VECTOR_H_	src/base/vector.h	2;"	d
+_JUSON_H_	juson/juson.h	2;"	d
+abs_path	src/server.h	/^    string_t abs_path;$/;"	m	struct:__anon32
+accept	src/server.h	/^    string_t accept;$/;"	m	struct:__anon26
+accept_charset	src/server.h	/^    string_t accept_charset;$/;"	m	struct:__anon26
+accept_connection	src/server.c	/^static void accept_connection(int listen_fd) {$/;"	f	file:
+accept_encoding	src/server.h	/^    string_t accept_encoding;$/;"	m	struct:__anon26
+accept_pool	src/connection.c	/^pool_t accept_pool;$/;"	v
+accept_ranges	src/server.h	/^    string_t accept_ranges;$/;"	m	struct:__anon27
+accept_type_t	src/server.h	/^} accept_type_t;$/;"	t	typeref:struct:__anon30
+accepts	src/server.h	/^    list_t accepts;$/;"	m	struct:request
+active_time	src/server.h	/^    time_t active_time;$/;"	m	struct:connection
+adata	juson/juson.h	/^            juson_value_t** adata;$/;"	m	struct:juson_value::__anon1::__anon3
+add_listener	src/connection.c	/^int add_listener(int* listen_fd) {$/;"	f
+age	src/server.h	/^    string_t age;$/;"	m	struct:__anon27
+allocated_n	juson/juson.h	/^    int allocated_n;$/;"	m	struct:juson_pool
+arr	test/test.c	/^int arr[101];$/;"	v
+authorization	src/server.h	/^    string_t authorization;$/;"	m	struct:__anon26
+begin	src/base/buffer.h	/^    char* begin; \/\/ inclusive$/;"	m	struct:__anon10
+body_done	src/server.h	/^    uint8_t body_done: 1;$/;"	m	struct:request
+body_received	src/server.h	/^    int body_received;$/;"	m	struct:request
+buffer_append	src/base/buffer.h	/^static inline void buffer_append(buffer_t* des, buffer_t* src) {$/;"	f
+buffer_append_cstring	src/base/buffer.h	82;"	d
+buffer_append_string	src/base/buffer.c	/^int buffer_append_string(buffer_t* buffer, const string_t* str) {$/;"	f
+buffer_append_u16le	src/base/buffer.h	/^static inline int buffer_append_u16le(buffer_t* buffer, uint16_t val) {$/;"	f
+buffer_append_u32le	src/base/buffer.h	/^static inline int buffer_append_u32le(buffer_t* buffer, uint32_t val) {$/;"	f
+buffer_append_u8	src/base/buffer.h	/^static inline int buffer_append_u8(buffer_t* buffer, uint8_t val) {$/;"	f
+buffer_clear	src/base/buffer.h	/^static inline void buffer_clear(buffer_t* buffer) {$/;"	f
+buffer_discard_parsed	src/base/buffer.h	/^static inline void buffer_discard_parsed(buffer_t* buffer) {$/;"	f
+buffer_full	src/base/buffer.h	/^static inline bool buffer_full(buffer_t* buffer) {$/;"	f
+buffer_init	src/base/buffer.h	/^static inline void buffer_init(buffer_t* buffer) {$/;"	f
+buffer_margin	src/base/buffer.h	/^static inline int buffer_margin(buffer_t* buffer) {$/;"	f
+buffer_print	src/base/buffer.c	/^int buffer_print(buffer_t* buffer, const char* format, ...) {$/;"	f
+buffer_recv	src/base/buffer.c	/^int buffer_recv(buffer_t* buffer, int fd) {$/;"	f
+buffer_send	src/base/buffer.c	/^int buffer_send(buffer_t* buffer, int fd) {$/;"	f
+buffer_size	src/base/buffer.h	/^static inline int buffer_size(buffer_t* buffer) {$/;"	f
+buffer_t	src/base/buffer.h	/^} buffer_t;$/;"	t	typeref:struct:__anon10
+bval	juson/juson.h	/^        juson_bool_t bval;$/;"	m	union:juson_value::__anon1
+c	src/server.h	/^    struct connection* c;$/;"	m	struct:request	typeref:struct:request::connection
+capacity	juson/juson.h	/^            int capacity;$/;"	m	struct:juson_value::__anon1::__anon3
+capacity	src/base/vector.h	/^    int capacity;$/;"	m	struct:__anon20
+chunk_clear	src/base/pool.c	/^static inline void chunk_clear(chunk_t* chunk) {$/;"	f	file:
+chunk_init	src/base/pool.c	/^int chunk_init(chunk_t* chunk, int width, int size) {$/;"	f
+chunk_size	src/base/pool.h	/^    int chunk_size;$/;"	m	struct:__anon13
+chunk_slot_t	src/base/pool.h	/^} chunk_slot_t;$/;"	t	typeref:union:__anon11
+chunk_t	src/base/pool.h	/^} chunk_t;$/;"	t	typeref:struct:__anon12
+chunks	src/base/pool.h	/^    vector_t chunks;$/;"	m	struct:__anon13
+close_connection	src/connection.c	/^void close_connection(connection_t* c) {$/;"	f
+config_destroy	src/config.c	/^void config_destroy(config_t* cfg) {$/;"	f
+config_init	src/config.c	/^static void config_init(config_t* cfg) {$/;"	f	file:
+config_load	src/config.c	/^int config_load(config_t* cfg) {$/;"	f
+config_t	src/server.h	/^} config_t;$/;"	t	typeref:struct:__anon25
+connection	src/server.h	/^typedef struct connection {$/;"	s
+connection_activate	src/connection.c	/^void connection_activate(connection_t* c) {$/;"	f
+connection_disable_in	src/server.h	/^static inline int connection_disable_in(connection_t* c) {$/;"	f
+connection_disable_out	src/server.h	/^static inline int connection_disable_out(connection_t* c) {$/;"	f
+connection_enable_in	src/server.h	/^static inline int connection_enable_in(connection_t* c) {$/;"	f
+connection_enable_out	src/server.h	/^static inline int connection_enable_out(connection_t* c) {$/;"	f
+connection_expire	src/connection.c	/^void connection_expire(connection_t* c) {$/;"	f
+connection_is_expired	src/connection.c	/^bool connection_is_expired(connection_t* c) {$/;"	f
+connection_pool	src/connection.c	/^pool_t connection_pool;$/;"	v
+connection_register	src/connection.c	/^int connection_register(connection_t* c) {$/;"	f
+connection_sweep	src/connection.c	/^void connection_sweep(void) {$/;"	f
+connection_t	src/server.h	/^} connection_t;$/;"	t	typeref:struct:connection
+connection_unregister	src/connection.c	/^void connection_unregister(connection_t* c) {$/;"	f
+connections	src/connection.c	/^static connection_t* connections[MAX_CONNECTION + 1] = {NULL};$/;"	v	file:
+container	src/base/queue.h	/^    list_t container;$/;"	m	struct:__anon15
+content_length	src/server.h	/^    int content_length;$/;"	m	struct:request
+cookie	src/server.h	/^    string_t cookie;$/;"	m	struct:__anon26
+cur	juson/juson.h	/^    juson_slot_t* cur;$/;"	m	struct:juson_pool
+cur	src/base/map.h	/^    map_slot_t* cur;$/;"	m	struct:__anon18
+cur	src/base/pool.h	/^    void* cur;$/;"	m	struct:__anon13
+daemon	src/server.h	/^    bool daemon;    \/\/是否是守护进程$/;"	m	struct:__anon25
+data	juson/juson.h	/^                juson_value_t* data;$/;"	m	union:juson_value::__anon1::__anon5::__anon6
+data	src/base/buffer.h	/^    char data[BUF_SIZE + 1];$/;"	m	struct:__anon10
+data	src/base/list.h	/^    char data; \/\/ The minimum size$/;"	m	struct:list_node
+data	src/base/map.h	/^    map_slot_t* data;$/;"	m	struct:__anon18
+data	src/base/pool.h	/^    void* data;$/;"	m	struct:__anon12
+data	src/base/string.h	/^    char* data;$/;"	m	struct:__anon14
+data	src/base/vector.h	/^    void* data;$/;"	m	struct:__anon20
+data	src/event.h	/^  alignas(uint32_t) julia_epoll_data_t data;	\/* User data variable *\/$/;"	m	struct:__anon22
+debug	src/server.h	/^    bool debug;	    \/\/是否是debug的$/;"	m	struct:__anon25
+discard_body	src/server.h	/^    uint8_t discard_body: 1;$/;"	m	struct:request
+dummy	src/base/list.h	/^    list_node_t dummy;$/;"	m	struct:__anon19
+end	src/base/buffer.h	/^    char* end; \/\/ exclusive$/;"	m	struct:__anon10
+epoll_fd	src/connection.c	/^int epoll_fd;$/;"	v
+err_301_page	src/response.c	/^static char err_301_page[] =$/;"	v	file:
+err_302_page	src/response.c	/^static char err_302_page[] =$/;"	v	file:
+err_303_page	src/response.c	/^static char err_303_page[] =$/;"	v	file:
+err_307_page	src/response.c	/^static char err_307_page[] =$/;"	v	file:
+err_400_page	src/response.c	/^static char err_400_page[] =$/;"	v	file:
+err_401_page	src/response.c	/^static char err_401_page[] =$/;"	v	file:
+err_402_page	src/response.c	/^static char err_402_page[] =$/;"	v	file:
+err_403_page	src/response.c	/^static char err_403_page[] =$/;"	v	file:
+err_404_page	src/response.c	/^static char err_404_page[] =$/;"	v	file:
+err_405_page	src/response.c	/^static char err_405_page[] =$/;"	v	file:
+err_406_page	src/response.c	/^static char err_406_page[] =$/;"	v	file:
+err_407_page	src/response.c	/^static char err_407_page[] =$/;"	v	file:
+err_408_page	src/response.c	/^static char err_408_page[] =$/;"	v	file:
+err_409_page	src/response.c	/^static char err_409_page[] =$/;"	v	file:
+err_410_page	src/response.c	/^static char err_410_page[] =$/;"	v	file:
+err_411_page	src/response.c	/^static char err_411_page[] =$/;"	v	file:
+err_412_page	src/response.c	/^static char err_412_page[] =$/;"	v	file:
+err_413_page	src/response.c	/^static char err_413_page[] =$/;"	v	file:
+err_414_page	src/response.c	/^static char err_414_page[] =$/;"	v	file:
+err_415_page	src/response.c	/^static char err_415_page[] =$/;"	v	file:
+err_416_page	src/response.c	/^static char err_416_page[] =$/;"	v	file:
+err_417_page	src/response.c	/^static char err_417_page[] =$/;"	v	file:
+err_500_page	src/response.c	/^static char err_500_page[] =$/;"	v	file:
+err_501_page	src/response.c	/^static char err_501_page[] =$/;"	v	file:
+err_502_page	src/response.c	/^static char err_502_page[] =$/;"	v	file:
+err_503_page	src/response.c	/^static char err_503_page[] =$/;"	v	file:
+err_504_page	src/response.c	/^static char err_504_page[] =$/;"	v	file:
+err_505_page	src/response.c	/^static char err_505_page[] =$/;"	v	file:
+err_507_page	src/response.c	/^static char err_507_page[] =$/;"	v	file:
+err_page	src/response.c	/^static char* err_page(int status, int* len) {$/;"	f	file:
+err_page_tail	src/response.c	/^static char err_page_tail[] =$/;"	v	file:
+etag	src/server.h	/^    string_t etag;$/;"	m	struct:__anon27
+event	src/server.h	/^    julia_epoll_event_t event;$/;"	m	struct:connection
+events	src/connection.c	/^julia_epoll_event_t events[MAX_EVENT_NUM];$/;"	v
+events	src/event.h	/^  uint32_t events;	\/* Epoll events *\/$/;"	m	struct:__anon22
+expect	src/server.h	/^    string_t expect;$/;"	m	struct:__anon26
+extension	src/server.h	/^    string_t extension;$/;"	m	struct:__anon32
+fd	src/event.h	/^  int fd;$/;"	m	union:__anon21
+fd	src/server.h	/^    int fd;$/;"	m	struct:__anon24
+fd	src/server.h	/^    int fd;$/;"	m	struct:connection
+from	src/server.h	/^    string_t from;$/;"	m	struct:__anon26
+fval	juson/juson.h	/^        juson_float_t fval;$/;"	m	union:juson_value::__anon1
+gen	test/genhash.c	/^int gen(char* str, int base, int mul)$/;"	f
+get_pid	src/server.c	/^static int get_pid(void) {$/;"	f	file:
+handle_pass	src/request.c	/^int handle_pass(connection_t* uc) {$/;"	f
+handle_request	src/request.c	/^int handle_request(connection_t* c) {$/;"	f
+handle_response	src/request.c	/^int handle_response(connection_t* c) {$/;"	f
+handle_upstream	src/request.c	/^int handle_upstream(connection_t* uc) {$/;"	f
+hash_t	src/base/map.h	/^typedef unsigned int hash_t;$/;"	t
+head	juson/juson.h	/^            juson_value_t* head; \/\/ pair$/;"	m	struct:juson_value::__anon1::__anon4
+head	juson/juson.h	/^    juson_chunk_t head;$/;"	m	struct:juson_pool
+header	src/base/map.h	/^    header_val_t header;$/;"	m	union:__anon17
+header_handle_accept	src/request.c	/^static int header_handle_accept(request_t* r, int offset) {$/;"	f	file:
+header_handle_connection	src/request.c	/^static int header_handle_connection(request_t* r, int offset) {$/;"	f	file:
+header_handle_content_length	src/request.c	/^static int header_handle_content_length(request_t* r, int offset) {$/;"	f	file:
+header_handle_generic	src/request.c	/^static int header_handle_generic(request_t* r, int offset) {$/;"	f	file:
+header_handle_host	src/request.c	/^static int header_handle_host(request_t* r, int offset) {$/;"	f	file:
+header_handle_if_modified_since	src/request.c	/^static int header_handle_if_modified_since(request_t* r, int offset) {$/;"	f	file:
+header_handle_t_encoding	src/request.c	/^static int header_handle_t_encoding(request_t* r, int offset) {$/;"	f	file:
+header_map	src/request.c	/^static map_t header_map = {$/;"	v	file:
+header_map_data	src/request.c	/^static map_slot_t header_map_data[2 * HEADER_MAP_SIZE];$/;"	v	file:
+header_map_init	src/request.c	/^void header_map_init(void) {$/;"	f
+header_name	src/server.h	/^    string_t header_name;$/;"	m	struct:request
+header_nv_t	src/request.c	/^} header_nv_t;$/;"	t	typeref:struct:__anon9	file:
+header_processor_t	src/server.h	/^typedef int (*header_processor_t)(request_t* request, int offset);$/;"	t
+header_tb	src/request.c	/^static header_nv_t header_tb[] = {$/;"	v	file:
+header_val_t	src/base/map.h	/^} header_val_t;$/;"	t	typeref:struct:__anon16
+header_value	src/server.h	/^    string_t header_value;$/;"	m	struct:request
+header_value_params	src/parse.c	/^static vector_t header_value_params;$/;"	v	file:
+header_values	src/parse.c	/^static vector_t header_values;$/;"	v	file:
+headers	src/server.h	/^    request_headers_t headers;$/;"	m	struct:request
+heap_comp	test/test.c	/^static int heap_comp(void* lhs, void* rhs) {$/;"	f	file:
+heap_idx	src/server.h	/^    int heap_idx;$/;"	m	struct:connection
+heap_shift_down	src/connection.c	/^static void heap_shift_down(int idx) {$/;"	f	file:
+heap_shift_up	src/connection.c	/^static void heap_shift_up(int idx) {$/;"	f	file:
+heap_size	src/connection.c	/^static int heap_size = 0;$/;"	v	file:
+host	src/server.h	/^    string_t host;$/;"	m	struct:__anon24
+host	src/server.h	/^    string_t host;$/;"	m	struct:__anon26
+host	src/server.h	/^    string_t host;$/;"	m	struct:__anon32
+host	src/server.h	/^    string_t host;$/;"	m	struct:request
+if_match	src/server.h	/^    string_t if_match;$/;"	m	struct:__anon26
+if_modified_since	src/server.h	/^    string_t if_modified_since;$/;"	m	struct:__anon26
+if_none_match	src/server.h	/^    string_t if_none_match;$/;"	m	struct:__anon26
+if_range	src/server.h	/^    string_t if_range;$/;"	m	struct:__anon26
+if_unmodified_since	src/server.h	/^    string_t if_unmodified_since;$/;"	m	struct:__anon26
+in_handler	src/server.h	/^    int (*in_handler)(struct request* r);$/;"	m	struct:request
+ival	juson/juson.h	/^        juson_int_t ival;$/;"	m	union:juson_value::__anon1
+ju_error	src/util.c	/^void ju_error(const char* format, ...) {$/;"	f
+ju_log	src/util.c	/^void ju_log(const char* format, ...) {$/;"	f
+julia_epoll_data_t	src/event.h	/^} julia_epoll_data_t;$/;"	t	typeref:union:__anon21
+julia_epoll_event_t	src/event.h	/^typedef struct epoll_event julia_epoll_event_t;$/;"	t	typeref:struct:epoll_event
+julia_epoll_event_t	src/event.h	/^} julia_epoll_event_t;$/;"	t	typeref:struct:__anon22
+juson_alloc	juson/juson.c	/^static juson_value_t* juson_alloc(juson_doc_t* doc) {$/;"	f	file:
+juson_array_get	juson/juson.c	/^juson_value_t* juson_array_get(juson_value_t* arr, size_t idx) {$/;"	f
+juson_array_push	juson/juson.c	/^static inline juson_value_t** juson_array_push(juson_value_t* arr) {$/;"	f	file:
+juson_bool_t	juson/juson.h	/^typedef unsigned char       juson_bool_t;$/;"	t
+juson_chunk	juson/juson.h	/^struct juson_chunk {$/;"	s
+juson_chunk_init	juson/juson.c	/^static void juson_chunk_init(juson_chunk_t* chunk) {$/;"	f	file:
+juson_chunk_t	juson/juson.h	/^typedef struct juson_chunk  juson_chunk_t;$/;"	t	typeref:struct:juson_chunk
+juson_destroy	juson/juson.c	/^void juson_destroy(juson_doc_t* doc) {$/;"	f
+juson_doc_t	juson/juson.h	/^} juson_doc_t;$/;"	t	typeref:struct:__anon8
+juson_error	juson/juson.c	/^static void juson_error(juson_doc_t* doc, const char* format, ...) {$/;"	f	file:
+juson_error	juson/juson.c	35;"	d	file:
+juson_float_t	juson/juson.h	/^typedef double              juson_float_t;$/;"	t
+juson_free_value	juson/juson.c	/^static void juson_free_value(juson_value_t* v) {$/;"	f	file:
+juson_int_t	juson/juson.h	/^typedef long                juson_int_t;$/;"	t
+juson_load	juson/juson.c	/^char* juson_load(const char* file_name) {$/;"	f
+juson_new	juson/juson.c	/^static juson_value_t* juson_new(juson_doc_t* doc, juson_type_t t) {$/;"	f	file:
+juson_object_add	juson/juson.c	/^static void juson_object_add(juson_value_t* obj, juson_value_t* pair) {$/;"	f	file:
+juson_object_get	juson/juson.c	/^juson_value_t* juson_object_get(juson_value_t* obj, char* name) {$/;"	f
+juson_parse	juson/juson.c	/^juson_value_t* juson_parse(juson_doc_t* doc, const char* json) {$/;"	f
+juson_parse_array	juson/juson.c	/^static juson_value_t* juson_parse_array(juson_doc_t* doc) {$/;"	f	file:
+juson_parse_bool	juson/juson.c	/^static juson_value_t* juson_parse_bool(juson_doc_t* doc) {$/;"	f	file:
+juson_parse_comment	juson/juson.c	/^static const char* juson_parse_comment(juson_doc_t* doc, const char* p) {$/;"	f	file:
+juson_parse_null	juson/juson.c	/^static juson_value_t* juson_parse_null(juson_doc_t* doc) {$/;"	f	file:
+juson_parse_number	juson/juson.c	/^static juson_value_t* juson_parse_number(juson_doc_t* doc) {$/;"	f	file:
+juson_parse_object	juson/juson.c	/^static juson_value_t* juson_parse_object(juson_doc_t* doc) {$/;"	f	file:
+juson_parse_pair	juson/juson.c	/^static juson_value_t* juson_parse_pair(juson_doc_t* doc) {$/;"	f	file:
+juson_parse_string	juson/juson.c	/^static juson_value_t* juson_parse_string(juson_doc_t* doc) {$/;"	f	file:
+juson_parse_value	juson/juson.c	/^static juson_value_t* juson_parse_value(juson_doc_t* doc) {$/;"	f	file:
+juson_pool	juson/juson.h	/^struct juson_pool {$/;"	s
+juson_pool_init	juson/juson.c	/^static void juson_pool_init(juson_pool_t* pool) {$/;"	f	file:
+juson_pool_t	juson/juson.h	/^typedef struct juson_pool   juson_pool_t;$/;"	t	typeref:struct:juson_pool
+juson_slot	juson/juson.h	/^union juson_slot {$/;"	u
+juson_slot_t	juson/juson.h	/^typedef union  juson_slot   juson_slot_t;$/;"	t	typeref:union:juson_slot
+juson_type	juson/juson.h	/^typedef enum juson_type {$/;"	g
+juson_type_t	juson/juson.h	/^} juson_type_t;$/;"	t	typeref:enum:juson_type
+juson_val2str	src/config.c	/^static inline const string_t juson_val2str(juson_value_t* val) {$/;"	f	file:
+juson_value	juson/juson.h	/^struct juson_value {$/;"	s
+juson_value_t	juson/juson.h	/^typedef struct juson_value  juson_value_t;$/;"	t	typeref:struct:juson_value
+juson_write_utf8	juson/juson.c	/^static char* juson_write_utf8(juson_doc_t* doc, char* p, uint32_t val) {$/;"	f	file:
+keep_alive	src/server.h	/^    uint8_t keep_alive: 1;$/;"	m	struct:request
+key	juson/juson.h	/^                    juson_value_t* key; \/\/ string$/;"	m	struct:juson_value::__anon1::__anon5::__anon6::__anon7
+key	src/base/map.h	/^    string_t key;$/;"	m	struct:map_slot
+len	juson/juson.h	/^            int len;$/;"	m	struct:juson_value::__anon1::__anon2
+len	src/base/string.h	/^    int len;$/;"	m	struct:__anon14
+limit	src/base/buffer.h	/^    char limit[1];$/;"	m	struct:__anon10
+line	juson/juson.h	/^    int line;$/;"	m	struct:__anon8
+list_alloc	src/base/list.h	/^static inline list_node_t* list_alloc(list_t* list) {$/;"	f
+list_clear	src/base/list.h	/^static inline void list_clear(list_t* list) {$/;"	f
+list_delete	src/base/list.c	/^int list_delete(list_t* list, list_node_t* x) {$/;"	f
+list_free	src/base/list.h	/^static inline void list_free(list_t* list, list_node_t* x) {$/;"	f
+list_head	src/base/list.h	/^static inline list_node_t* list_head(list_t* list) {$/;"	f
+list_init	src/base/list.h	/^static inline int list_init(list_t* list, pool_t* pool) {$/;"	f
+list_insert	src/base/list.c	/^int list_insert(list_t* list, list_node_t* pos, list_node_t* new_node) {$/;"	f
+list_node	src/base/list.h	/^struct list_node {$/;"	s
+list_node_t	src/base/list.h	/^typedef struct list_node list_node_t; $/;"	t	typeref:struct:list_node
+list_t	src/base/list.h	/^} list_t;$/;"	t	typeref:struct:__anon19
+list_tail	src/base/list.h	/^static inline list_node_t* list_tail(list_t* list) {$/;"	f
+location	src/server.h	/^    string_t location;$/;"	m	struct:__anon27
+location_t	src/server.h	/^} location_t;$/;"	t	typeref:struct:__anon24
+locations	src/server.h	/^    vector_t locations;$/;"	m	struct:__anon25
+main	juson/test.c	/^int main(int argc, char* argv[]) {$/;"	f
+main	src/server.c	/^int main(int argc, char* argv[]) {$/;"	f
+main	test/client.c	/^int main(int argc, char* argv[])$/;"	f
+main	test/genhash.c	/^int main(void)$/;"	f
+main	test/test.c	/^int main(void) {$/;"	f
+major	src/server.h	/^    uint16_t major;$/;"	m	struct:__anon31
+map_get	src/base/map.c	/^map_slot_t* map_get(map_t* map, const map_key_t* key) {$/;"	f
+map_key_t	src/base/map.h	/^typedef string_t map_key_t;$/;"	t
+map_put	src/base/map.c	/^void map_put(map_t* map, const string_t* key, const map_val_t* val) {$/;"	f
+map_slot	src/base/map.h	/^struct map_slot {$/;"	s
+map_slot_t	src/base/map.h	/^typedef struct map_slot map_slot_t;$/;"	t	typeref:struct:map_slot
+map_t	src/base/map.h	/^} map_t;$/;"	t	typeref:struct:__anon18
+map_val_t	src/base/map.h	/^} map_val_t;$/;"	t	typeref:union:__anon17
+match_location	src/request.c	/^static location_t* match_location(string_t* path) {$/;"	f	file:
+max	src/util.h	/^static inline int max(int x, int y) {$/;"	f
+max_forwards	src/server.h	/^    string_t max_forwards;$/;"	m	struct:__anon26
+max_size	src/base/map.h	/^    int max_size;$/;"	m	struct:__anon18
+method	src/server.h	/^    method_t method;$/;"	m	struct:request
+method_t	src/server.h	/^} method_t;$/;"	t	typeref:enum:__anon28
+mime	src/base/map.h	/^    mime_val_t mime;$/;"	m	union:__anon17
+mime_map	src/response.c	/^static map_t mime_map = {$/;"	v	file:
+mime_map_data	src/response.c	/^static map_slot_t mime_map_data[2 * MIME_MAP_SIZE];$/;"	v	file:
+mime_map_init	src/response.c	/^void mime_map_init(void) {$/;"	f
+mime_tb	src/response.c	/^static string_t mime_tb [][2] = {$/;"	v	file:
+mime_val_t	src/base/map.h	/^typedef string_t mime_val_t;$/;"	t
+min	src/util.h	/^static inline int min(int x, int y) {$/;"	f
+minor	src/server.h	/^    uint16_t minor;$/;"	m	struct:__anon31
+my_send	test/client.c	/^int my_send(int fd, const char* format, ...)$/;"	f
+nallocated	src/base/pool.h	/^    int nallocated;$/;"	m	struct:__anon13
+name	src/request.c	/^    string_t name;$/;"	m	struct:__anon9	file:
+nddots	src/server.h	/^    int nddots;$/;"	m	struct:__anon32
+need_free	juson/juson.h	/^            int need_free;$/;"	m	struct:juson_value::__anon1::__anon2
+nentries	src/server.h	/^    int nentries;$/;"	m	struct:__anon32
+next	juson/juson.c	/^static int next(juson_doc_t* doc) {$/;"	f	file:
+next	juson/juson.h	/^            juson_value_t* next;$/;"	m	struct:juson_value::__anon1::__anon5
+next	juson/juson.h	/^    juson_chunk_t* next;$/;"	m	struct:juson_chunk
+next	juson/juson.h	/^    juson_slot_t* next;$/;"	m	union:juson_slot
+next	src/base/list.h	/^    list_node_t* next;$/;"	m	struct:list_node
+next	src/base/map.h	/^    map_slot_t* next;$/;"	m	struct:map_slot
+next	src/base/pool.h	/^    void* next;$/;"	m	union:__anon11
+offset	src/base/map.h	/^    int offset;$/;"	m	struct:__anon16
+open_connection	src/connection.c	/^connection_t* open_connection(int fd) {$/;"	f
+out_handler	src/server.h	/^    int (*out_handler)(struct request* r);$/;"	m	struct:request
+p	juson/juson.h	/^    const char* p;    $/;"	m	struct:__anon8
+parse_header_accept	src/parse.c	/^int parse_header_accept(request_t* r) {$/;"	f
+parse_header_host	src/parse.c	/^void parse_header_host(request_t* r) {$/;"	f
+parse_header_line	src/parse.c	/^int parse_header_line(request_t* r) {$/;"	f
+parse_init	src/parse.c	/^void parse_init(void) {$/;"	f
+parse_method	src/parse.c	/^static inline int parse_method(char* begin, char* end) {$/;"	f	file:
+parse_request_body_chunked	src/parse.c	/^int parse_request_body_chunked(request_t* r) {$/;"	f
+parse_request_body_identity	src/parse.c	/^int parse_request_body_identity(request_t* r) {$/;"	f
+parse_request_line	src/parse.c	/^int parse_request_line(request_t* r) {$/;"	f
+parse_uri	src/parse.c	/^static int parse_uri(uri_t* uri, char* p) {$/;"	f	file:
+pass	src/server.h	/^    bool pass;$/;"	m	struct:__anon24
+path	src/server.h	/^    string_t path;$/;"	m	struct:__anon24
+pool	juson/juson.h	/^    juson_pool_t pool;$/;"	m	struct:__anon8
+pool	src/base/list.h	/^    pool_t* pool;$/;"	m	struct:__anon19
+pool_alloc	src/base/pool.c	/^void* pool_alloc(pool_t* pool) {$/;"	f
+pool_clear	src/base/pool.c	/^void pool_clear(pool_t* pool) {$/;"	f
+pool_free	src/base/pool.h	/^static inline void pool_free(pool_t* pool, void* x) {$/;"	f
+pool_init	src/base/pool.c	/^int pool_init(pool_t* pool, int width, int chunk_size, int nchunks) {$/;"	f
+pool_t	src/base/pool.h	/^} pool_t;$/;"	t	typeref:struct:__anon13
+port	src/server.h	/^    string_t port;$/;"	m	struct:__anon32
+port	src/server.h	/^    uint16_t port; \/\/端口$/;"	m	struct:__anon25
+port	src/server.h	/^    uint16_t port;$/;"	m	struct:__anon24
+port	src/server.h	/^    uint16_t port;$/;"	m	struct:request
+prev	src/base/list.h	/^    list_node_t* prev;$/;"	m	struct:list_node
+print_buffer	src/base/buffer.c	/^void print_buffer(buffer_t* buffer) {$/;"	f
+print_heap	test/test.c	/^static void print_heap(heap_t* h) {$/;"	f	file:
+print_string	src/base/string.c	/^int print_string(const char* format, ...) {$/;"	f
+processor	src/base/map.h	/^    void* processor;$/;"	m	struct:__anon16
+protocol	src/server.h	/^    protocol_t protocol;$/;"	m	struct:__anon24
+protocol_t	src/server.h	/^} protocol_t;$/;"	t	typeref:enum:__anon23
+proxy_authenticate	src/server.h	/^    string_t proxy_authenticate;$/;"	m	struct:__anon27
+proxy_authorization	src/server.h	/^    string_t proxy_authorization;$/;"	m	struct:__anon26
+ptr	src/event.h	/^  void *ptr;$/;"	m	union:__anon21
+q	src/server.h	/^    float q;$/;"	m	struct:__anon30
+query	src/server.h	/^    string_t query;$/;"	m	struct:__anon32
+queue_alloc	src/base/queue.h	/^static inline void* queue_alloc(queue_t* queue) {$/;"	f
+queue_back	src/base/queue.h	/^static inline void* queue_back(queue_t* queue) {$/;"	f
+queue_clear	src/base/queue.h	/^static inline void queue_clear(queue_t* queue) {$/;"	f
+queue_empty	src/base/queue.h	/^static inline int queue_empty(queue_t* queue) {$/;"	f
+queue_front	src/base/queue.h	/^static inline void* queue_front(queue_t* queue) {$/;"	f
+queue_init	src/base/queue.h	/^static inline int queue_init(queue_t* queue, pool_t* pool) {$/;"	f
+queue_node_t	src/base/queue.h	/^typedef list_node_t queue_node_t;$/;"	t
+queue_pop	src/base/queue.h	/^static inline void queue_pop(queue_t* queue) {$/;"	f
+queue_push	src/base/queue.h	/^static inline int queue_push(queue_t* queue, void* x) {$/;"	f
+queue_size	src/base/queue.h	/^static inline int queue_size(queue_t* queue) {$/;"	f
+queue_t	src/base/queue.h	/^} queue_t;$/;"	t	typeref:struct:__anon15
+r	src/server.h	/^    request_t* r;$/;"	m	struct:connection
+range	src/server.h	/^    string_t range;$/;"	m	struct:__anon26
+rb	src/server.h	/^    buffer_t rb;$/;"	m	struct:request
+referer	src/server.h	/^    string_t referer;$/;"	m	struct:__anon26
+request	src/server.h	/^typedef struct request {$/;"	s
+request_clear	src/request.c	/^void request_clear(request_t* r) {$/;"	f
+request_handle_body	src/request.c	/^static int request_handle_body(request_t* r) {$/;"	f	file:
+request_handle_headers	src/request.c	/^static int request_handle_headers(request_t* r) {$/;"	f	file:
+request_handle_request_line	src/request.c	/^static int request_handle_request_line(request_t* r) {$/;"	f	file:
+request_handle_uri	src/request.c	/^static int request_handle_uri(request_t* r) {$/;"	f	file:
+request_headers_t	src/server.h	/^} request_headers_t;$/;"	t	typeref:struct:__anon26
+request_init	src/request.c	/^void request_init(request_t* r, connection_t* c) {$/;"	f
+request_line	src/server.h	/^    string_t request_line;$/;"	m	struct:request
+request_pool	src/connection.c	/^pool_t request_pool;$/;"	v
+request_release	src/request.c	/^void request_release(request_t* r) {$/;"	f
+request_reuse	src/request.c	/^static void request_reuse(request_t* r) {$/;"	f	file:
+request_t	src/server.h	/^} request_t;$/;"	t	typeref:struct:request
+resource_fd	src/server.h	/^    int resource_fd;$/;"	m	struct:request
+resource_len	src/server.h	/^    int resource_len;$/;"	m	struct:request
+response_build	src/response.c	/^int response_build(request_t* r) {$/;"	f
+response_build_err	src/response.c	/^int response_build_err(request_t* r, int err) {$/;"	f
+response_done	src/server.h	/^    uint8_t response_done: 1;$/;"	m	struct:request
+response_headers_t	src/server.h	/^} response_headers_t;$/;"	t	typeref:struct:__anon27
+response_put_date	src/response.c	/^static void response_put_date(request_t* r) {$/;"	f	file:
+response_put_status_line	src/response.c	/^static void response_put_status_line(request_t* r) {$/;"	f	file:
+retry_after	src/server.h	/^    string_t retry_after;$/;"	m	struct:__anon27
+root	src/server.h	/^    string_t root;$/;"	m	struct:__anon24
+root_fd	src/server.h	/^    int root_fd;    \/\/$/;"	m	struct:__anon25
+save_pid	src/server.c	/^static void save_pid(int pid) {$/;"	f	file:
+sb	src/server.h	/^    buffer_t sb;$/;"	m	struct:request
+scheme	src/server.h	/^    string_t scheme;$/;"	m	struct:__anon32
+send_response_buffer	src/request.c	/^int send_response_buffer(request_t* r) {$/;"	f
+send_response_file	src/request.c	/^int send_response_file(request_t* r) {$/;"	f
+send_signal	src/server.c	/^static void send_signal(const char* signal) {$/;"	f	file:
+server	src/server.h	/^    string_t server;$/;"	m	struct:__anon27
+server_cfg	src/config.c	/^config_t server_cfg;$/;"	v
+server_init	src/server.c	/^static int server_init(void) {$/;"	f	file:
+set_nonblocking	src/connection.c	/^int set_nonblocking(int fd) {$/;"	f
+side	src/server.h	/^    int side;$/;"	m	struct:connection
+sig_int	src/server.c	/^static void sig_int(int signo) {$/;"	f	file:
+size	juson/juson.h	/^            int size;$/;"	m	struct:juson_value::__anon1::__anon3
+size	src/base/list.h	/^    int size;$/;"	m	struct:__anon19
+size	src/base/map.h	/^    int size;$/;"	m	struct:__anon18
+size	src/base/vector.h	/^    int size;$/;"	m	struct:__anon20
+slots	juson/juson.h	/^    juson_slot_t slots[JUSON_CHUNK_SIZE];$/;"	m	struct:juson_chunk
+split_header_value	src/parse.c	/^static void split_header_value(string_t* val, char split, vector_t* vec) {$/;"	f	file:
+startup	src/server.c	/^static int startup(uint16_t port) {$/;"	f	file:
+startup	test/client.c	/^int startup(uint16_t port)$/;"	f
+state	src/server.h	/^    int state;$/;"	m	struct:__anon32
+state	src/server.h	/^    int state;$/;"	m	struct:request
+status	src/server.h	/^    int status;$/;"	m	struct:request
+status_repr	src/response.c	/^static const string_t status_repr(int status) {$/;"	f	file:
+string_cmp	src/base/string.c	/^int string_cmp(const string_t* lhs, const string_t* rhs) {$/;"	f
+string_end	src/base/string.h	/^static inline char* string_end(string_t* str) {$/;"	f
+string_eq	src/base/string.c	/^bool string_eq(const string_t* lhs, const string_t* rhs) {$/;"	f
+string_find	src/base/string.h	/^static inline char* string_find(string_t* str, char ch) {$/;"	f
+string_free	src/base/string.h	/^static inline void string_free(string_t* str) {$/;"	f
+string_hash	src/base/map.c	/^static hash_t string_hash(const string_t* str) {$/;"	f	file:
+string_init	src/base/string.h	/^static inline void string_init(string_t* str) {$/;"	f
+string_null	src/base/string.h	/^static const string_t string_null = {NULL, 0};$/;"	v
+string_setto	src/base/string.h	/^static inline string_t string_setto(char* cstr, int len) {$/;"	f
+string_t	src/base/string.h	/^} string_t;$/;"	t	typeref:struct:__anon14
+subtype	src/server.h	/^    string_t subtype;$/;"	m	struct:__anon30
+sval	juson/juson.h	/^            const char* sval;$/;"	m	struct:juson_value::__anon1::__anon2
+t	juson/juson.h	/^    juson_type_t t;$/;"	m	struct:juson_value
+t_encoding	src/server.h	/^    transfer_encoding_t t_encoding;$/;"	m	struct:request
+tail	juson/juson.h	/^            juson_value_t* tail; \/\/ pair$/;"	m	struct:juson_value::__anon1::__anon4
+te	src/server.h	/^    string_t te;$/;"	m	struct:__anon26
+test_heap	test/test.c	/^static int test_heap(void) {$/;"	f	file:
+test_list	test/test.c	/^static int test_list(void) {$/;"	f	file:
+test_pool	test/test.c	/^static int test_pool(void) {$/;"	f	file:
+test_queue	test/test.c	/^static int test_queue(void) {$/;"	f	file:
+text	src/server.h	/^    char* text;$/;"	m	struct:__anon25
+timeout	src/server.h	/^    int timeout;    \/\/是否超时$/;"	m	struct:__anon25
+transfer_encoding_t	src/server.h	/^} transfer_encoding_t;$/;"	t	typeref:enum:__anon29
+try	juson/juson.c	/^static int try(juson_doc_t* doc, char x) {$/;"	f	file:
+type	src/server.h	/^    string_t type;$/;"	m	struct:__anon30
+u32	src/event.h	/^  uint32_t u32;$/;"	m	union:__anon21
+u64	src/event.h	/^  uint64_t u64;$/;"	m	union:__anon21
+uc	src/server.h	/^    struct connection* uc;$/;"	m	struct:request	typeref:struct:request::connection
+ucs	juson/juson.c	/^static inline uint32_t ucs(const char* p) {$/;"	f	file:
+uri	src/server.h	/^    uri_t uri;$/;"	m	struct:request
+uri_init	src/request.c	/^static inline void uri_init(uri_t* uri) {$/;"	f	file:
+uri_t	src/server.h	/^} uri_t;$/;"	t	typeref:struct:__anon32
+usage	src/server.c	/^static void usage(void) {$/;"	f	file:
+user_agent	src/server.h	/^    string_t user_agent;$/;"	m	struct:__anon26
+uwsgi_abort_request	src/uwsgi.c	/^int uwsgi_abort_request() {$/;"	f
+uwsgi_open_connection	src/connection.c	/^connection_t* uwsgi_open_connection(request_t* r, location_t* loc) {$/;"	f
+uwsgi_open_connection	src/uwsgi.c	/^int uwsgi_open_connection(request_t* r, location_t* loc) {$/;"	f
+uwsgi_start_request	src/uwsgi.c	/^int uwsgi_start_request(connection_t* c) {$/;"	f
+val	juson/juson.h	/^                    juson_value_t* val;$/;"	m	struct:juson_value::__anon1::__anon5::__anon6::__anon7
+val	juson/juson.h	/^    juson_value_t val;$/;"	m	union:juson_slot
+val	juson/juson.h	/^    juson_value_t* val;$/;"	m	struct:__anon8
+val	src/base/map.h	/^    map_val_t val;$/;"	m	struct:map_slot
+val	src/request.c	/^    header_val_t val;$/;"	m	struct:__anon9	file:
+vary	src/server.h	/^    string_t vary;$/;"	m	struct:__anon27
+vector_at	src/base/vector.h	/^static inline void* vector_at(vector_t* vec, int i) {$/;"	f
+vector_back	src/base/vector.h	/^static inline void* vector_back(vector_t* vec) {$/;"	f
+vector_clear	src/base/vector.c	/^void vector_clear(vector_t* vec) {$/;"	f
+vector_init	src/base/vector.c	/^int vector_init(vector_t* vec, int width, int size) {$/;"	f
+vector_pop	src/base/vector.h	/^static inline void vector_pop(vector_t* vec) {$/;"	f
+vector_push	src/base/vector.h	/^static inline void* vector_push(vector_t* vec) {$/;"	f
+vector_reserve	src/base/vector.c	/^int vector_reserve(vector_t* vec, int c) {$/;"	f
+vector_resize	src/base/vector.c	/^int vector_resize(vector_t* vec, int new_size) {$/;"	f
+vector_t	src/base/vector.h	/^} vector_t;$/;"	t	typeref:struct:__anon20
+version	src/server.h	/^    version_t version;$/;"	m	struct:request
+version_t	src/server.h	/^} version_t;$/;"	t	typeref:struct:__anon31
+width	src/base/pool.h	/^    int width;$/;"	m	struct:__anon13
+width	src/base/vector.h	/^    int width;$/;"	m	struct:__anon20
+workers	src/server.h	/^    vector_t workers;	$/;"	m	struct:__anon25
+www_authenticate	src/server.h	/^    string_t www_authenticate;$/;"	m	struct:__anon27
+xdigit	juson/juson.c	/^static inline int xdigit(int c) {$/;"	f	file:
